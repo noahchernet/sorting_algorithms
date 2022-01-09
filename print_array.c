@@ -32,6 +32,7 @@ void print_array(const int *array, size_t size)
 void swap_array(int *array, size_t i, size_t j)
 {
 	int c = array[j];
+
 	array[j] = array[i];
 	array[i] = c;
 }
