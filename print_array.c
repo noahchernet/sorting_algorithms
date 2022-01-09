@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -20,4 +19,19 @@ void print_array(const int *array, size_t size)
 		++i;
 	}
 	printf("\n");
+}
+
+/**
+ * swap_array - swap two elements of an array
+ * @array: items of this array will be swapped
+ * @i: item to be swapped with @j
+ * @j: item to be swapped with @i
+ *
+ * Return: void
+ */
+void swap_array(int *array, size_t i, size_t j)
+{
+	int c = array[j];
+	array[j] = array[i];
+	array[i] = c;
 }
