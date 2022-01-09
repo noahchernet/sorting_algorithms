@@ -1,6 +1,9 @@
 #ifndef SORTING_ALGORITHMS_DECK_H
 #define SORTING_ALGORITHMS_DECK_H
 
+/**
+ * kinde_e - type of card
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
