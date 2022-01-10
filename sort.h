@@ -34,4 +34,7 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+void quick_sorter(int *array, int lo, int hi, int size);
+int partition(int *array, int lo, int hi, int size);
+
 #endif /* SORTING_ALGORITHMS_SORT_H */
