@@ -13,6 +13,12 @@ void insertion_sort_list(listint_t **list)
 	struct listint_s *j, *store, **key = list;
 	int i, shifted;
 
+	if (!key || !(*key)->next)
+	{
+		print_list(*key);
+		return;
+	}
+
 	*key = (*key)->next;
 	while (*key)
 	{
