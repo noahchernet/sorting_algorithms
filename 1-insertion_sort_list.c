@@ -15,7 +15,6 @@ void insertion_sort_list(listint_t **list)
 
 	if (!key || !(*key)->next)
 	{
-		print_list(*key);
 		return;
 	}
 
