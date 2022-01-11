@@ -36,5 +36,10 @@ void quick_sort_hoare(int *array, size_t size);
 
 void quick_sorter(int *array, int lo, int hi, int size);
 int partition(int *array, int lo, int hi, int size);
+listint_t *get_head(listint_t *list);
+
+int are_they_neighbours(listint_t *A, listint_t *B);
+void refresh_outer_pointers(listint_t *A);
+void swap(listint_t *A, listint_t *B);
 
 #endif /* SORTING_ALGORITHMS_SORT_H */
